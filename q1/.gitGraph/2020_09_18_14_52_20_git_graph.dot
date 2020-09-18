@@ -1,0 +1,21 @@
+digraph auto {
+	graph [bgcolor=transparent]
+	node [fixedsize=true style=filled width=0.95]
+	"78201917ea4c7936828d74306e2c73181b18a92c" [label=7820191 fillcolor="#9ccc66"]
+	"1fb6b04461faf2302c588d470dbc76b09052bbfe" [label="1fb6b04" fillcolor="#bc9b8f"]
+	"1fb6b04461faf2302c588d470dbc76b09052bbfe" -> "78201917ea4c7936828d74306e2c73181b18a92c"
+	"49fd9060b7857ee337c7f23376a24899d0503168" [label="49fd906" fillcolor="#bc9b8f"]
+	"49fd9060b7857ee337c7f23376a24899d0503168" -> "5a52878af74afc8312cf1c489d893ea6df99e68c"
+	"49fd9060b7857ee337c7f23376a24899d0503168" -> cdf825aff36e26346cf4c939b5c009823dcf4a98
+	"49fd9060b7857ee337c7f23376a24899d0503168" -> "1fb6b04461faf2302c588d470dbc76b09052bbfe"
+	"5a52878af74afc8312cf1c489d893ea6df99e68c" [label="5a52878" fillcolor="#bc9b8f"]
+	"5a52878af74afc8312cf1c489d893ea6df99e68c" -> "78201917ea4c7936828d74306e2c73181b18a92c"
+	cdf825aff36e26346cf4c939b5c009823dcf4a98 [label=cdf825a fillcolor="#bc9b8f"]
+	cdf825aff36e26346cf4c939b5c009823dcf4a98 -> "78201917ea4c7936828d74306e2c73181b18a92c"
+	"1acc73240116d13f1a15db84be767ec5d926b5b0" [label="1acc732" fillcolor="#85d5fa"]
+	"1acc73240116d13f1a15db84be767ec5d926b5b0" -> "49fd9060b7857ee337c7f23376a24899d0503168"
+	master [label=master fillcolor="#9999ff"]
+	master -> "1acc73240116d13f1a15db84be767ec5d926b5b0"
+	HEAD [label=HEAD fillcolor="#e6ccff"]
+	HEAD -> master
+}
