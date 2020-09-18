@@ -1,0 +1,13 @@
+repeat the part of q1 folders with name or file and then follow comands.
+
+git add omprakash
+git commit -m "omprakash"
+git graph
+
+git add ravi
+git commit -m "ravi"
+git graph
+
+git add vikash
+git commit -m "vikash"
+git graph
